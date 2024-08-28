@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct RememberApp: App {
+    let dateHolder = DateHolder()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(dateHolder)
         }
     }
 }

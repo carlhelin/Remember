@@ -11,6 +11,40 @@
 		34351893288FFCA5008DD148 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34351892288FFCA5008DD148 /* ContentView.swift */; };
 		34351895288FFCA6008DD148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34351894288FFCA6008DD148 /* Assets.xcassets */; };
 		34351898288FFCA6008DD148 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34351897288FFCA6008DD148 /* Preview Assets.xcassets */; };
+		343518A7288FFDD4008DD148 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343518A6288FFDD4008DD148 /* History.swift */; };
+		343518A9288FFDDE008DD148 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343518A8288FFDDE008DD148 /* Main.swift */; };
+		343518AB288FFDE8008DD148 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343518AA288FFDE8008DD148 /* Settings.swift */; };
+		343518AF289017ED008DD148 /* DateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343518AE289017ED008DD148 /* DateHolder.swift */; };
+		343518B1289018C1008DD148 /* DateScrollerViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343518B0289018C1008DD148 /* DateScrollerViewView.swift */; };
+		343518B728901DA6008DD148 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343518B628901DA6008DD148 /* CalendarHelper.swift */; };
+		349B0ED1289FAF91006924DA /* Shoulder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0ED0289FAF91006924DA /* Shoulder.swift */; };
+		349B0ED3289FB3D4006924DA /* Pectoral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0ED2289FB3D4006924DA /* Pectoral.swift */; };
+		349B0ED628A0FFA5006924DA /* Biceps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0ED528A0FFA5006924DA /* Biceps.swift */; };
+		349B0ED828A104D6006924DA /* Forearms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0ED728A104D6006924DA /* Forearms.swift */; };
+		349B0EDA28A1076E006924DA /* UpperTraps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0ED928A1076E006924DA /* UpperTraps.swift */; };
+		349B0EDC28A1090F006924DA /* UpperAbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EDB28A1090F006924DA /* UpperAbs.swift */; };
+		349B0EDE28A10989006924DA /* MidAbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EDD28A10989006924DA /* MidAbs.swift */; };
+		349B0EE028A10A17006924DA /* LowAbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EDF28A10A17006924DA /* LowAbs.swift */; };
+		349B0EE228A10C4A006924DA /* SideAbs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EE128A10C4A006924DA /* SideAbs.swift */; };
+		349B0EE428A10EA4006924DA /* Quads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EE328A10EA4006924DA /* Quads.swift */; };
+		349B0EE628A10F72006924DA /* Calves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EE528A10F72006924DA /* Calves.swift */; };
+		349B0EE928A15E3E006924DA /* Traps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EE828A15E3E006924DA /* Traps.swift */; };
+		349B0EEB28A16031006924DA /* LowerTraps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EEA28A16031006924DA /* LowerTraps.swift */; };
+		349B0EED28A16145006924DA /* LowerBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EEC28A16145006924DA /* LowerBack.swift */; };
+		349B0EEF28A16219006924DA /* Butt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EEE28A16219006924DA /* Butt.swift */; };
+		349B0EF128A16350006924DA /* Lats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EF028A16350006924DA /* Lats.swift */; };
+		349B0EF328A164AE006924DA /* BackShoulder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EF228A164AE006924DA /* BackShoulder.swift */; };
+		349B0EF528A165BC006924DA /* Triceps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EF428A165BC006924DA /* Triceps.swift */; };
+		349B0EF728A166E8006924DA /* Hamstrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EF628A166E8006924DA /* Hamstrings.swift */; };
+		349B0EF928A167D5006924DA /* BackCalves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EF828A167D5006924DA /* BackCalves.swift */; };
+		349B0EFB28A16883006924DA /* BackForearms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349B0EFA28A16883006924DA /* BackForearms.swift */; };
+		349C0DAA28A39C8100BA69AB /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 349C0DA928A39C8100BA69AB /* UserSettings.swift */; };
+		34C5C07829AFCA8500EC6815 /* SQLite in Frameworks */ = {isa = PBXBuildFile; productRef = 34C5C07729AFCA8500EC6815 /* SQLite */; };
+		34C5C07B29AFCBA200EC6815 /* SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C5C07A29AFCBA200EC6815 /* SQLite.swift */; };
+		34C5C07E29AFD06000EC6815 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34C5C07C29AFD06000EC6815 /* Model.xcdatamodeld */; };
+		34C5C08029AFD09A00EC6815 /* TrainingSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C5C07F29AFD09A00EC6815 /* TrainingSessions.swift */; };
+		34CF03BF2893CD4400EC381F /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF03BE2893CD4400EC381F /* CalendarCell.swift */; };
+		34CF03C12893CE7000EC381F /* MonthStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF03C02893CE7000EC381F /* MonthStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +53,39 @@
 		34351892288FFCA5008DD148 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34351894288FFCA6008DD148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34351897288FFCA6008DD148 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		343518A6288FFDD4008DD148 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		343518A8288FFDDE008DD148 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		343518AA288FFDE8008DD148 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		343518AE289017ED008DD148 /* DateHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHolder.swift; sourceTree = "<group>"; };
+		343518B0289018C1008DD148 /* DateScrollerViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScrollerViewView.swift; sourceTree = "<group>"; };
+		343518B628901DA6008DD148 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		349B0ED0289FAF91006924DA /* Shoulder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoulder.swift; sourceTree = "<group>"; };
+		349B0ED2289FB3D4006924DA /* Pectoral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pectoral.swift; sourceTree = "<group>"; };
+		349B0ED528A0FFA5006924DA /* Biceps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biceps.swift; sourceTree = "<group>"; };
+		349B0ED728A104D6006924DA /* Forearms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forearms.swift; sourceTree = "<group>"; };
+		349B0ED928A1076E006924DA /* UpperTraps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperTraps.swift; sourceTree = "<group>"; };
+		349B0EDB28A1090F006924DA /* UpperAbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperAbs.swift; sourceTree = "<group>"; };
+		349B0EDD28A10989006924DA /* MidAbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidAbs.swift; sourceTree = "<group>"; };
+		349B0EDF28A10A17006924DA /* LowAbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowAbs.swift; sourceTree = "<group>"; };
+		349B0EE128A10C4A006924DA /* SideAbs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideAbs.swift; sourceTree = "<group>"; };
+		349B0EE328A10EA4006924DA /* Quads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quads.swift; sourceTree = "<group>"; };
+		349B0EE528A10F72006924DA /* Calves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calves.swift; sourceTree = "<group>"; };
+		349B0EE828A15E3E006924DA /* Traps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traps.swift; sourceTree = "<group>"; };
+		349B0EEA28A16031006924DA /* LowerTraps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerTraps.swift; sourceTree = "<group>"; };
+		349B0EEC28A16145006924DA /* LowerBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerBack.swift; sourceTree = "<group>"; };
+		349B0EEE28A16219006924DA /* Butt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Butt.swift; sourceTree = "<group>"; };
+		349B0EF028A16350006924DA /* Lats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lats.swift; sourceTree = "<group>"; };
+		349B0EF228A164AE006924DA /* BackShoulder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackShoulder.swift; sourceTree = "<group>"; };
+		349B0EF428A165BC006924DA /* Triceps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triceps.swift; sourceTree = "<group>"; };
+		349B0EF628A166E8006924DA /* Hamstrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamstrings.swift; sourceTree = "<group>"; };
+		349B0EF828A167D5006924DA /* BackCalves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackCalves.swift; sourceTree = "<group>"; };
+		349B0EFA28A16883006924DA /* BackForearms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackForearms.swift; sourceTree = "<group>"; };
+		349C0DA928A39C8100BA69AB /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		34C5C07A29AFCBA200EC6815 /* SQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite.swift; sourceTree = "<group>"; };
+		34C5C07D29AFD06000EC6815 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		34C5C07F29AFD09A00EC6815 /* TrainingSessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSessions.swift; sourceTree = "<group>"; };
+		34CF03BE2893CD4400EC381F /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		34CF03C02893CE7000EC381F /* MonthStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C5C07829AFCA8500EC6815 /* SQLite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +119,16 @@
 		3435188F288FFCA5008DD148 /* Remember */ = {
 			isa = PBXGroup;
 			children = (
+				34C5C07929AFCB7600EC6815 /* SQLite */,
 				34351890288FFCA5008DD148 /* RememberApp.swift */,
 				34351892288FFCA5008DD148 /* ContentView.swift */,
+				343518B628901DA6008DD148 /* CalendarHelper.swift */,
+				343518AE289017ED008DD148 /* DateHolder.swift */,
+				343518B0289018C1008DD148 /* DateScrollerViewView.swift */,
+				34CF03BE2893CD4400EC381F /* CalendarCell.swift */,
+				34CF03C02893CE7000EC381F /* MonthStruct.swift */,
+				349C0DA628A39BE600BA69AB /* Settings */,
+				3435189E288FFD22008DD148 /* Views */,
 				34351894288FFCA6008DD148 /* Assets.xcassets */,
 				34351896288FFCA6008DD148 /* Preview Content */,
 			);
@@ -65,6 +141,71 @@
 				34351897288FFCA6008DD148 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3435189E288FFD22008DD148 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				343518A6288FFDD4008DD148 /* History.swift */,
+				343518A8288FFDDE008DD148 /* Main.swift */,
+				343518AA288FFDE8008DD148 /* Settings.swift */,
+				349B0EE728A15CE5006924DA /* Body Parts Back */,
+				349B0ED4289FB559006924DA /* Body Parts Front */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		349B0ED4289FB559006924DA /* Body Parts Front */ = {
+			isa = PBXGroup;
+			children = (
+				349B0ED2289FB3D4006924DA /* Pectoral.swift */,
+				349B0ED0289FAF91006924DA /* Shoulder.swift */,
+				349B0ED528A0FFA5006924DA /* Biceps.swift */,
+				349B0ED728A104D6006924DA /* Forearms.swift */,
+				349B0ED928A1076E006924DA /* UpperTraps.swift */,
+				349B0EDB28A1090F006924DA /* UpperAbs.swift */,
+				349B0EDD28A10989006924DA /* MidAbs.swift */,
+				349B0EDF28A10A17006924DA /* LowAbs.swift */,
+				349B0EE128A10C4A006924DA /* SideAbs.swift */,
+				349B0EE328A10EA4006924DA /* Quads.swift */,
+				349B0EE528A10F72006924DA /* Calves.swift */,
+			);
+			path = "Body Parts Front";
+			sourceTree = "<group>";
+		};
+		349B0EE728A15CE5006924DA /* Body Parts Back */ = {
+			isa = PBXGroup;
+			children = (
+				349B0EE828A15E3E006924DA /* Traps.swift */,
+				349B0EEA28A16031006924DA /* LowerTraps.swift */,
+				349B0EEC28A16145006924DA /* LowerBack.swift */,
+				349B0EEE28A16219006924DA /* Butt.swift */,
+				349B0EF028A16350006924DA /* Lats.swift */,
+				349B0EF228A164AE006924DA /* BackShoulder.swift */,
+				349B0EF428A165BC006924DA /* Triceps.swift */,
+				349B0EF628A166E8006924DA /* Hamstrings.swift */,
+				349B0EF828A167D5006924DA /* BackCalves.swift */,
+				349B0EFA28A16883006924DA /* BackForearms.swift */,
+			);
+			path = "Body Parts Back";
+			sourceTree = "<group>";
+		};
+		349C0DA628A39BE600BA69AB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				349C0DA928A39C8100BA69AB /* UserSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		34C5C07929AFCB7600EC6815 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				34C5C07A29AFCBA200EC6815 /* SQLite.swift */,
+				34C5C07C29AFD06000EC6815 /* Model.xcdatamodeld */,
+				34C5C07F29AFD09A00EC6815 /* TrainingSessions.swift */,
+			);
+			path = SQLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +224,9 @@
 			dependencies = (
 			);
 			name = Remember;
+			packageProductDependencies = (
+				34C5C07729AFCA8500EC6815 /* SQLite */,
+			);
 			productName = Remember;
 			productReference = 3435188D288FFCA5008DD148 /* Remember.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +255,9 @@
 				Base,
 			);
 			mainGroup = 34351884288FFCA5008DD148;
+			packageReferences = (
+				34C5C07629AFCA8500EC6815 /* XCRemoteSwiftPackageReference "SQLite.swift" */,
+			);
 			productRefGroup = 3435188E288FFCA5008DD148 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +284,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				349B0EF928A167D5006924DA /* BackCalves.swift in Sources */,
+				349B0EEF28A16219006924DA /* Butt.swift in Sources */,
+				349B0EE928A15E3E006924DA /* Traps.swift in Sources */,
+				343518A7288FFDD4008DD148 /* History.swift in Sources */,
+				343518B728901DA6008DD148 /* CalendarHelper.swift in Sources */,
+				343518AF289017ED008DD148 /* DateHolder.swift in Sources */,
+				349B0EFB28A16883006924DA /* BackForearms.swift in Sources */,
+				34C5C07B29AFCBA200EC6815 /* SQLite.swift in Sources */,
+				349B0EE628A10F72006924DA /* Calves.swift in Sources */,
+				349B0ED3289FB3D4006924DA /* Pectoral.swift in Sources */,
+				349B0EDE28A10989006924DA /* MidAbs.swift in Sources */,
+				34CF03C12893CE7000EC381F /* MonthStruct.swift in Sources */,
+				349B0EE228A10C4A006924DA /* SideAbs.swift in Sources */,
 				34351893288FFCA5008DD148 /* ContentView.swift in Sources */,
+				34CF03BF2893CD4400EC381F /* CalendarCell.swift in Sources */,
+				343518A9288FFDDE008DD148 /* Main.swift in Sources */,
+				343518B1289018C1008DD148 /* DateScrollerViewView.swift in Sources */,
+				349B0ED628A0FFA5006924DA /* Biceps.swift in Sources */,
+				34C5C08029AFD09A00EC6815 /* TrainingSessions.swift in Sources */,
+				349B0EF128A16350006924DA /* Lats.swift in Sources */,
+				349B0EF728A166E8006924DA /* Hamstrings.swift in Sources */,
+				349B0EE428A10EA4006924DA /* Quads.swift in Sources */,
 				34351891288FFCA5008DD148 /* RememberApp.swift in Sources */,
+				349B0EDC28A1090F006924DA /* UpperAbs.swift in Sources */,
+				349B0EEB28A16031006924DA /* LowerTraps.swift in Sources */,
+				349B0EE028A10A17006924DA /* LowAbs.swift in Sources */,
+				34C5C07E29AFD06000EC6815 /* Model.xcdatamodeld in Sources */,
+				349B0ED1289FAF91006924DA /* Shoulder.swift in Sources */,
+				349B0EF528A165BC006924DA /* Triceps.swift in Sources */,
+				349B0EED28A16145006924DA /* LowerBack.swift in Sources */,
+				349B0EDA28A1076E006924DA /* UpperTraps.swift in Sources */,
+				349B0ED828A104D6006924DA /* Forearms.swift in Sources */,
+				349C0DAA28A39C8100BA69AB /* UserSettings.swift in Sources */,
+				343518AB288FFDE8008DD148 /* Settings.swift in Sources */,
+				349B0EF328A164AE006924DA /* BackShoulder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +519,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34C5C07629AFCA8500EC6815 /* XCRemoteSwiftPackageReference "SQLite.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stephencelis/SQLite.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34C5C07729AFCA8500EC6815 /* SQLite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34C5C07629AFCA8500EC6815 /* XCRemoteSwiftPackageReference "SQLite.swift" */;
+			productName = SQLite;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		34C5C07C29AFD06000EC6815 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34C5C07D29AFD06000EC6815 /* Model.xcdatamodel */,
+			);
+			currentVersion = 34C5C07D29AFD06000EC6815 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 34351885288FFCA5008DD148 /* Project object */;
 }
